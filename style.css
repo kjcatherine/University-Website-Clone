@@ -31,3 +31,18 @@ nav img {
   padding: 8px 12px;
   position: relative;
 }
+.nav-links ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 13px;
+}
+.nav-links ul li::after {
+  content: "";
+  /* change width to 0 to hide underline*/
+  width: 0%;
+  height: 2px;
+  background: #f44336;
+  display: block;
+  margin: auto;
+  transition: 0.5s;
+}
