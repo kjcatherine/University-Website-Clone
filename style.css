@@ -148,3 +148,17 @@ p {
   box-sizing: border-box;
   transition: 0.5s;
 }
+h3 {
+  text-align: center;
+  font-weight: 600;
+  margin: 10px 0;
+}
+.course-col:hover {
+  box-shadow: 0 0 20px 0px rgba(0, 0, 0, 0.2);
+}
+/* all media querys can be together, this is just for the purpose of this tutorial*/
+@media (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
