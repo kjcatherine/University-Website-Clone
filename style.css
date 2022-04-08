@@ -235,3 +235,11 @@ h3 {
   margin-bottom: 15px;
   text-align: left;
 }
+/* testimonials section*/
+
+.testimonials {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
