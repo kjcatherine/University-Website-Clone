@@ -205,3 +205,15 @@ h3 {
   opacity: 0;
   transition: 0.5s;
 }
+.layer:hover h3 {
+  bottom: 49%;
+  opacity: 1;
+}
+/* Facilities*/
+
+.facilities {
+  width: 80%;
+  margin: auto;
+  text-align: center;
+  padding-top: 100px;
+}
